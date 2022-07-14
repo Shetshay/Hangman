@@ -115,112 +115,121 @@ string randWordGen()
 	return randWord[number];
 }
 
-
+// class LivesClassCall
+// {
+// 	public: 
+// 	char rem2guess[20];
+// };
 
 void lives1()
 {
-std:system("clear");
-cout << "+--------------------+" << endl;
-cout << "|   GUESS THE WORD!  |" << endl;
-cout << "+--------------------+" << endl;
-cout << "|         |          |" << endl;
-cout << "|         |          |" << endl;
-cout << "|         O          |" << endl;
-cout << "|        /|\\         |" << endl;
-cout << "|        / \\         |" << endl;
-cout << "|                    |" << endl;
-cout << "+--------------------+" << endl << endl;
+	std:system("clear");
+	cout << "+--------------------+" << endl;
+	cout << "|   GUESS THE WORD!  |" << endl;
+	cout << "+--------------------+" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         O          |" << endl;
+	cout << "|        /|\\         |" << endl;
+	cout << "|        / \\         |" << endl;
+	cout << "|                    |" << endl;
+	cout << "+--------------------+" << endl << endl;
 }
 void lives2()
 {
-std:system("clear");
-cout << "+--------------------+" << endl;
-cout << "|   GUESS THE WORD!  |" << endl;
-cout << "+--------------------+" << endl;
-cout << "|         |          |" << endl;
-cout << "|         |          |" << endl;
-cout << "|         O          |" << endl;
-cout << "|        /|\\         |" << endl;
-cout << "|          \\         |" << endl;
-cout << "|                    |" << endl;
-cout << "+--------------------+" << endl << endl;
+	std:system("clear");
+	cout << "+--------------------+" << endl;
+	cout << "|   GUESS THE WORD!  |" << endl;
+	cout << "+--------------------+" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         O          |" << endl;
+	cout << "|        /|\\         |" << endl;
+	cout << "|          \\         |" << endl;
+	cout << "|                    |" << endl;
+	cout << "+--------------------+" << endl << endl;
 }
 void lives3()
 {
-std:system("clear");
-cout << "+--------------------+" << endl;
-cout << "|   GUESS THE WORD!  |" << endl;
-cout << "+--------------------+" << endl;
-cout << "|         |          |" << endl;
-cout << "|         |          |" << endl;
-cout << "|         O          |" << endl;
-cout << "|        /|\\         |" << endl;
-cout << "|                    |" << endl;
-cout << "|                    |" << endl;
-cout << "+--------------------+" << endl << endl;
+	std:system("clear");
+	cout << "+--------------------+" << endl;
+	cout << "|   GUESS THE WORD!  |" << endl;
+	cout << "+--------------------+" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         O          |" << endl;
+	cout << "|        /|\\         |" << endl;
+	cout << "|                    |" << endl;
+	cout << "|                    |" << endl;
+	cout << "+--------------------+" << endl << endl;
 }
 void lives4()
 {
-std:system("clear");
-cout << "+--------------------+" << endl;
-cout << "|   GUESS THE WORD!  |" << endl;
-cout << "+--------------------+" << endl;
-cout << "|         |          |" << endl;
-cout << "|         |          |" << endl;
-cout << "|         O          |" << endl;
-cout << "|        /|          |" << endl;
-cout << "|                    |" << endl;
-cout << "|                    |" << endl;
-cout << "+--------------------+" << endl << endl;
+	std:system("clear");
+	cout << "+--------------------+" << endl;
+	cout << "|   GUESS THE WORD!  |" << endl;
+	cout << "+--------------------+" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         O          |" << endl;
+	cout << "|        /|          |" << endl;
+	cout << "|                    |" << endl;
+	cout << "|                    |" << endl;
+	cout << "+--------------------+" << endl << endl;
 }
 void lives5()
 {
-std:system("clear");
-cout << "+--------------------+" << endl;
-cout << "|   GUESS THE WORD!  |" << endl;
-cout << "+--------------------+" << endl;
-cout << "|         |          |" << endl;
-cout << "|         |          |" << endl;
-cout << "|         O          |" << endl;
-cout << "|         |          |" << endl;
-cout << "|                    |" << endl;
-cout << "|                    |" << endl;
-cout << "+--------------------+" << endl << endl;
+	std:system("clear");
+	cout << "+--------------------+" << endl;
+	cout << "|   GUESS THE WORD!  |" << endl;
+	cout << "+--------------------+" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         O          |" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|                    |" << endl;
+	cout << "|                    |" << endl;
+	cout << "+--------------------+" << endl << endl;
 }
 void lives6()
 {
-std:system("clear");
-cout << "+--------------------+" << endl;
-cout << "|   GUESS THE WORD!  |" << endl;
-cout << "+--------------------+" << endl;
-cout << "|         |          |" << endl;
-cout << "|         |          |" << endl;
-cout << "|         O          |" << endl;
-cout << "|                    |" << endl;
-cout << "|                    |" << endl;
-cout << "|                    |" << endl;
-cout << "+--------------------+" << endl << endl;
+	std:system("clear");
+	cout << "+--------------------+" << endl;
+	cout << "|   GUESS THE WORD!  |" << endl;
+	cout << "+--------------------+" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         O          |" << endl;
+	cout << "|                    |" << endl;
+	cout << "|                    |" << endl;
+	cout << "|                    |" << endl;
+	cout << "+--------------------+" << endl << endl;
 }
 void lives7()
 {
-std:system("clear");
-cout << "+--------------------+" << endl;
-cout << "|   GUESS THE WORD!  |" << endl;
-cout << "+--------------------+" << endl;
-cout << "|         |          |" << endl;
-cout << "|         |          |" << endl;
-cout << "|         x          |" << endl;
-cout << "|                    |" << endl;
-cout << "|                    |" << endl;
-cout << "|                    |" << endl;
-cout << "+--------------------+" << endl << endl;
+	std:system("clear");
+	cout << "+--------------------+" << endl;
+	cout << "|   GUESS THE WORD!  |" << endl;
+	cout << "+--------------------+" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         |          |" << endl;
+	cout << "|         x          |" << endl;
+	cout << "|                    |" << endl;
+	cout << "|                    |" << endl;
+	cout << "|                    |" << endl;
+	cout << "+--------------------+" << endl << endl;
 }
 
 int main()
 {
+	//LivesClassCall remainder;
+	
 	int word_counter = 0;
-	int lives = 7;
+	int lives = 1;
 	char response;
+	bool response_acc = false;
+	bool maxdeath = true;
+	string updatedRes;
 	string randomWord = randWordGen();
 	std::system("clear");
     
@@ -238,7 +247,7 @@ int main()
 	//for (int i = 0; i<randomWord.size)
 
 	cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
-
+	char wordProgress[randomWord.size()];
 	cout << "Guess a letter: ";
 	cin >> response;
 	if(response >= 65 && response <= 90) // uppercase to lowercase converter
@@ -254,80 +263,1007 @@ int main()
 
 	
 	strcpy(char_array, randomWord.c_str());
-
-	// while(word_counter != randWordLen)
-	// {
 	for(int i = 0; i < randWordLen; i++)
 	{
 		if(response == char_array[i])
 		{
 			array_underscore[i] = response;
 			word_counter++;
-			//cout << "right!" << endl;
+			response_acc = true;
 		}
-		// else
-		// {
-		// lives--;
-		// }
-		cout << array_underscore[i];
+		//array_underscore[i] = remainder.rem2guess[i];
 	}
-			if (lives == 6)
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
 			{
 				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
 			}
-			if (lives == 5)
+			else if(lives == 3)
 			{
 				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
 			}
-			if (lives == 4)
+			else if(lives == 4)
 			{
 				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
 			}
-			if (lives == 3)
+			else if(lives == 5)
 			{
 				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
 			}
-			if (lives == 2)
+			else if(lives == 6)
 			{
 				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
 			}
-			if (lives == 1)
+			else
 			{
 				lives7();
 				cout << "YOU HAVE DIED!" << endl;
 				return -1;
 			}
-	//}
-    cout << "Guess a letter: ";
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+
+
+response_acc = false;
+
+
+
+
+cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
+cout << "Guess a letter: ";
 	cin >> response;
 	if(response >= 65 && response <= 90) // uppercase to lowercase converter
 	{
 	response = response + 32;
 	}
-for(int i = 0; i < randWordLen; i++)
+strcpy(char_array, randomWord.c_str());
+	for(int i = 0; i < randWordLen; i++)
 	{
 		if(response == char_array[i])
 		{
 			array_underscore[i] = response;
 			word_counter++;
-			//cout << "right!" << endl;
+			response_acc = true;
 		}
-		// else
-		// {
-		// lives--;
-		// }
-		cout << array_underscore[i];
+		//array_underscore[i] = remainder.rem2guess[i];
 	}
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
+			{
+				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 3)
+			{
+				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 4)
+			{
+				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 5)
+			{
+				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 6)
+			{
+				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else
+			{
+				lives7();
+				cout << "YOU HAVE DIED!" << endl;
+				return -1;
+			}
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+	cout << endl;
 
-		//cout << char_array[i];
-		cout << endl;
-	//cout << response << endl;
-	//cout << random << endl;
-	// for(int i = 0; i < randWord().size(); i++)
-	// {
-	// 	response | randWord
-	// }
 
+response_acc = false;
+
+
+
+
+cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
+cout << "Guess a letter: ";
+	cin >> response;
+	if(response >= 65 && response <= 90) // uppercase to lowercase converter
+	{
+	response = response + 32;
+	}
+strcpy(char_array, randomWord.c_str());
+	for(int i = 0; i < randWordLen; i++)
+	{
+		if(response == char_array[i])
+		{
+			array_underscore[i] = response;
+			word_counter++;
+			response_acc = true;
+		}
+		//array_underscore[i] = remainder.rem2guess[i];
+	}
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
+			{
+				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 3)
+			{
+				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 4)
+			{
+				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 5)
+			{
+				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 6)
+			{
+				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else
+			{
+				lives7();
+				cout << "YOU HAVE DIED!" << endl;
+				return -1;
+			}
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+	cout << endl;
+
+	response_acc = false;
+
+
+
+
+cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
+cout << "Guess a letter: ";
+	cin >> response;
+	if(response >= 65 && response <= 90) // uppercase to lowercase converter
+	{
+	response = response + 32;
+	}
+strcpy(char_array, randomWord.c_str());
+	for(int i = 0; i < randWordLen; i++)
+	{
+		if(response == char_array[i])
+		{
+			array_underscore[i] = response;
+			word_counter++;
+			response_acc = true;
+		}
+		//array_underscore[i] = remainder.rem2guess[i];
+	}
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
+			{
+				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 3)
+			{
+				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 4)
+			{
+				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 5)
+			{
+				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 6)
+			{
+				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else
+			{
+				lives7();
+				cout << "YOU HAVE DIED!" << endl;
+				return -1;
+			}
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+	cout << endl;
+
+	response_acc = false;
+
+
+
+
+cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
+cout << "Guess a letter: ";
+	cin >> response;
+	if(response >= 65 && response <= 90) // uppercase to lowercase converter
+	{
+	response = response + 32;
+	}
+strcpy(char_array, randomWord.c_str());
+	for(int i = 0; i < randWordLen; i++)
+	{
+		if(response == char_array[i])
+		{
+			array_underscore[i] = response;
+			word_counter++;
+			response_acc = true;
+		}
+		//array_underscore[i] = remainder.rem2guess[i];
+	}
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
+			{
+				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 3)
+			{
+				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 4)
+			{
+				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 5)
+			{
+				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 6)
+			{
+				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else
+			{
+				lives7();
+				cout << "YOU HAVE DIED!" << endl;
+				return -1;
+			}
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+	cout << endl;
+
+
+	response_acc = false;
+
+
+
+
+cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
+cout << "Guess a letter: ";
+	cin >> response;
+	if(response >= 65 && response <= 90) // uppercase to lowercase converter
+	{
+	response = response + 32;
+	}
+strcpy(char_array, randomWord.c_str());
+	for(int i = 0; i < randWordLen; i++)
+	{
+		if(response == char_array[i])
+		{
+			array_underscore[i] = response;
+			word_counter++;
+			response_acc = true;
+		}
+		//array_underscore[i] = remainder.rem2guess[i];
+	}
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
+			{
+				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 3)
+			{
+				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 4)
+			{
+				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 5)
+			{
+				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 6)
+			{
+				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else
+			{
+				lives7();
+				cout << "YOU HAVE DIED!" << endl;
+				return -1;
+			}
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+	cout << endl;
+
+
+	response_acc = false;
+
+
+
+
+cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
+cout << "Guess a letter: ";
+	cin >> response;
+	if(response >= 65 && response <= 90) // uppercase to lowercase converter
+	{
+	response = response + 32;
+	}
+strcpy(char_array, randomWord.c_str());
+	for(int i = 0; i < randWordLen; i++)
+	{
+		if(response == char_array[i])
+		{
+			array_underscore[i] = response;
+			word_counter++;
+			response_acc = true;
+		}
+		//array_underscore[i] = remainder.rem2guess[i];
+	}
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
+			{
+				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 3)
+			{
+				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 4)
+			{
+				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 5)
+			{
+				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 6)
+			{
+				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else
+			{
+				lives7();
+				cout << "YOU HAVE DIED!" << endl;
+				return -1;
+			}
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+	cout << endl;
+
+
+	response_acc = false;
+
+
+
+
+cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
+cout << "Guess a letter: ";
+	cin >> response;
+	if(response >= 65 && response <= 90) // uppercase to lowercase converter
+	{
+	response = response + 32;
+	}
+strcpy(char_array, randomWord.c_str());
+	for(int i = 0; i < randWordLen; i++)
+	{
+		if(response == char_array[i])
+		{
+			array_underscore[i] = response;
+			word_counter++;
+			response_acc = true;
+		}
+		//array_underscore[i] = remainder.rem2guess[i];
+	}
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
+			{
+				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 3)
+			{
+				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 4)
+			{
+				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 5)
+			{
+				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 6)
+			{
+				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else
+			{
+				lives7();
+				cout << "YOU HAVE DIED!" << endl;
+				return -1;
+			}
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+	cout << endl;
+
+
+	response_acc = false;
+
+
+
+
+cout << " " << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
+cout << "Guess a letter: ";
+	cin >> response;
+	if(response >= 65 && response <= 90) // uppercase to lowercase converter
+	{
+	response = response + 32;
+	}
+strcpy(char_array, randomWord.c_str());
+	for(int i = 0; i < randWordLen; i++)
+	{
+		if(response == char_array[i])
+		{
+			array_underscore[i] = response;
+			word_counter++;
+			response_acc = true;
+		}
+		//array_underscore[i] = remainder.rem2guess[i];
+	}
+	if(response_acc == false && maxdeath == true)
+		{
+			lives++;
+			maxdeath = false;
+		}
+			if (lives == 1)
+			{
+				lives1();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 2)
+			{
+				lives2();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 3)
+			{
+				lives3();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 4)
+			{
+				lives4();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 5)
+			{
+				lives5();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else if(lives == 6)
+			{
+				lives6();
+				if(response_acc == true)
+				{
+					cout << endl << "That was correct!" << endl;
+				}
+				else
+				{
+					cout << endl << "Ouch! That was a wrong answer!" << endl;
+				}
+			}
+			else
+			{
+				lives7();
+				cout << "YOU HAVE DIED!" << endl;
+				return -1;
+			}
+for(int i = 0; i <= randomWord.size(); i++)
+{
+	cout << array_underscore[i];
+}
+	cout << endl;
+
+	cout << endl;
 
 	return 0;
 }
