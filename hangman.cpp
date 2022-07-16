@@ -229,12 +229,11 @@ int main()
     string test[randWordLen] = {""};
     bool toggle_letter[randWordLen] = {false};
     bool word_entirety = false;
+    char letters_attempted[25];
+    bool letters_combo[25] = {true};
     std::system("clear");
 
 
-
-
-    //std::string str = randomWord;
 
 
     lives7();
@@ -248,23 +247,16 @@ int main()
         cout << array_underscore[i];
     }
 
-    //cout << randWordLen << endl; // will display the amount of letters in the word
-
 bool wtf = false;
 
 
-
+string letterslol = "";
 
    
-   
-    //cout << counter << " : IS THE COUNTER "<<endl;
-
-    //cout << test << " VS " << randomWord << endl<< endl;
-
-
+    cout << endl << endl;
     while(toggle_me == true)
     {
-        cout << " There are " << randomWord.size() << " letters in this word!" << endl << endl;
+        cout << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
         char wordProgress[randomWord.size()];
         cout << "Guess a letter: ";
         cin >> response;
@@ -272,12 +264,12 @@ bool wtf = false;
         {
             response = response + 32;
         }
+        letterslol =  letterslol + " " + response ;
 
-        //int randWordLen = randomWord.length();
 
         char char_array[randomWord.size() + 1];
 
-        for(int k = 0; k <= randWordLen; k++)
+        for(int k = 0; k < randWordLen; k++)
         {
             if(response == char_array[k])
             {
@@ -308,21 +300,16 @@ bool wtf = false;
             if(response == char_array[i])
             {
                 array_underscore[i] = response;
-                //word_counter++;
+
                 response_acc = true;
-                //toggle_letter[i] = true;
-                if(char_array[j] == array_underscore[j] && toggle_letter[j] == false)
+
+                if(char_array[i] == array_underscore[i] && toggle_letter[i] == false)
                 {
                     word_counter++;
-                    toggle_letter[j] == true;
-                //cout << " This is char_arry[j]: " << char_array[j] << " and this is array_underscore[j]: " << array_underscore[j];
-                //word_counter = word_counter + 1;
+                    toggle_letter[i] = true;
                 }
             }
-            // if(toggle_letter[i] == true)
-            // {
-            //     cout << "You already input that sorry try another option!" << endl;
-            // }
+
         }
         }
         if(response_acc == false)
@@ -341,6 +328,7 @@ bool wtf = false;
             {
                 cout << endl << "Ouch! That was a wrong answer!" << endl;
             }
+            
         }
         else if(lives == 6)
         {
@@ -354,6 +342,7 @@ bool wtf = false;
             {
                 cout << endl << "Ouch! That was a wrong answer!" << endl;
             }
+            cout << word_counter << endl;
         }
         else if(lives == 5)
         {
@@ -413,35 +402,22 @@ bool wtf = false;
             cout << "This is your current lives: " << lives - 1 << endl;
             cout << "YOU HAVE DIED!" << endl;
             cout << endl << endl << "The correct word was: " << randomWord << endl;
+            cout << word_counter << endl;
             return -1;
         }
         for(int i = 0; i <= randomWord.size(); i++)
         {
             cout << array_underscore[i];
-            //test[i] = array_underscore[i];
-            //test[i] = char_array[i];
-            //cout << test << endl;
 
+        
         }
+        cout << endl;
+        cout << "Your attempted letters are:" << letterslol << endl;
 
         response_acc = false;
         counter++;
         
-        // for(int j = 0; j < randWordLen; j++)
-        // {
-        //     cout << endl << "CURRENT WORD COUNTER: " << word_counter << endl;
-        //     if(char_array[j] == array_underscore[j] && toggle_letter[j] == false)
-        //     {
-               
-        //             word_counter++;
-        //             toggle_letter[j] == true;
-        //         //cout << " This is char_arry[j]: " << char_array[j] << " and this is array_underscore[j]: " << array_underscore[j];
-        //         //word_counter = word_counter + 1;
-        //     }
-        //     //word_counter--;
-        //    // wtf = true;
-        // }
-        if(word_counter == randWordLen)
+        if(word_counter >= randWordLen)
             {
                 toggle_me = false;
             }
