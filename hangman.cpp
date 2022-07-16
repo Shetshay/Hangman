@@ -228,6 +228,7 @@ int main()
     int j = 0;
     string test[randWordLen] = {""};
     bool toggle_letter[randWordLen] = {false};
+    bool word_entirety = false;
     std::system("clear");
 
 
@@ -276,13 +277,27 @@ bool wtf = false;
 
         char char_array[randomWord.size() + 1];
 
+        for(int k = 0; k <= randWordLen; k++)
+        {
+            if(response == char_array[k])
+            {
+                response = array_underscore[k];
+                response_acc = true;
+                k = randWordLen + 1;
+                word_entirety = true;
+            }
+        }
+
         strcpy(char_array, randomWord.c_str());
+        if(word_entirety == false)
+        {
         for(int i = 0; i <= randWordLen; i++)
         {   
             if(response == array_underscore[randWordLen])
             {
                 response = array_underscore[randWordLen];
                 response_acc = true;
+                i = randWordLen + 1;
             }
             if(response == array_underscore[i])
             {
@@ -308,6 +323,7 @@ bool wtf = false;
             // {
             //     cout << "You already input that sorry try another option!" << endl;
             // }
+        }
         }
         if(response_acc == false)
         {
