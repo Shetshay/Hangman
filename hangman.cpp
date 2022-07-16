@@ -237,7 +237,7 @@ int main()
 
 
     lives7();
-    cout << randomWord << endl;
+    //cout << randomWord << endl;
     char array_underscore[randomWord.size()];
 
 
