@@ -224,6 +224,8 @@ int main()
     int randWordLen = randomWord.length();
     bool toggle_me = true;
     int counter = 0;
+    int j = 0;
+    string test[randWordLen] = {""};
     //bool toggle_letter[randWordLen] = {false};
     std::system("clear");
 
@@ -235,18 +237,18 @@ int main()
 
     lives7();
     cout << randomWord << endl;
-    string array_underscore[randomWord.size()];
+    char array_underscore[randomWord.size()];
 
 
     for(int i = 0; i < randomWord.size(); i++) // underscores for the word
     {
-        array_underscore[i] = "_";
+        array_underscore[i] = '_';
         cout << array_underscore[i];
     }
 
     //cout << randWordLen << endl; // will display the amount of letters in the word
 
-
+bool wtf = false;
 
 
 
@@ -272,10 +274,6 @@ int main()
         //int randWordLen = randomWord.length();
 
         char char_array[randomWord.size() + 1];
-
-
-
-
 
         strcpy(char_array, randomWord.c_str());
         for(int i = 0; i < randWordLen; i++)
@@ -385,25 +383,37 @@ int main()
         for(int i = 0; i <= randomWord.size(); i++)
         {
             cout << array_underscore[i];
+            //test[i] = array_underscore[i];
+
+            //cout << test << endl;
+
         }
 
         response_acc = false;
         counter++;
-        // for(int i = 0; int i < randWordLen; i++)
+        
+        // for(int j = 0; j < randWordLen; j++)
         // {
-        //     if(char i = random i)
-        //     {
-                
-        //     }
-        //     if(char[i] = random i)
-        //     {
-        //         toggle_me = false;
-        //     }
-        // }
+            cout << endl << "CURRENT WORD COUNTER: " << word_counter + 1 << endl;
+            if(char_array[j] == array_underscore[j])
+            {
+                if(response == array_underscore[j])
+                {
+                    word_counter++;
+                }
+                //cout << " This is char_arry[j]: " << char_array[j] << " and this is array_underscore[j]: " << array_underscore[j];
+                word_counter = word_counter + 1;
+            }
+            //word_counter--;
+           // wtf = true;
+        //}
+        if(word_counter == randWordLen)
+            {
+                toggle_me = false;
+            }
     }
 
 
     cout << endl;
-
     return 0;
 }
