@@ -1,3 +1,3 @@
 # Hangman
 
-This will be a downloadable hangman game hopefully!
+Working hangman game, copy and paste to try it out! :)
