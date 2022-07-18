@@ -3,7 +3,7 @@
 #include <unistd.h>
 using namespace std;
 
-string randWordGen()
+string randWordGen() //random number generator
 {
     string randWord[100] = {"poke",
         "cave",
@@ -225,47 +225,37 @@ int main()
     int randWordLen = randomWord.length();
     bool toggle_me = true;
     int counter = 0;
-    int j = 0;
-    string test[randWordLen] = {""};
     bool toggle_letter[randWordLen] = {false};
     bool word_entirety = false;
-    char letters_attempted[25];
-    bool letters_combo[25] = {true};
-    std::system("clear");
+    string response_plus = ""; // set response_plus to nothing
+    bool repeat_letter = false;
+    std::system("clear"); // clear system
 
 
 
 
-    lives7();
-    //cout << randomWord << endl;
+    lives7(); //Display lives 7
+    //cout << randomWord << endl; //display radnom word for debug analysis
     char array_underscore[randomWord.size()];
 
 
-    for(int i = 0; i < randomWord.size(); i++) // underscores for the word
+    for(int m = 0; m < randomWord.size(); m++) // set underscore length for the word
     {
-        array_underscore[i] = '_';
-        cout << array_underscore[i];
+        array_underscore[m] = '_';
+        cout << array_underscore[m];
     }
-
-bool wtf = false;
-
-
-string letterslol = "";
-
    
     cout << endl << endl;
-    while(toggle_me == true)
+    while(toggle_me == true) 
     {
         cout << "There are " << randomWord.size() << " letters in this word!" << endl << endl;
-        char wordProgress[randomWord.size()];
+        char wordProgress[randomWord.size()]; //set wordProgress to the size of the random word
         cout << "Guess a letter: ";
         cin >> response;
-        if(response >= 65 && response <= 90) // uppercase to lowercase converter
+        if(response >= 65 && response <= 90) // uppercase to lowercase converter (just in case)
         {
             response = response + 32;
         }
-        letterslol =  letterslol + " " + response ;
-
 
         char char_array[randomWord.size() + 1];
 
@@ -283,18 +273,25 @@ string letterslol = "";
         strcpy(char_array, randomWord.c_str());
         if(word_entirety == false)
         {
-        for(int i = 0; i <= randWordLen; i++)
+        for(int i = 0; i <= randWordLen; i++) // this will check if response from user is valid
         {   
-            if(response == array_underscore[randWordLen])
+            for(int s = 0; s <= randWordLen; s++) 
             {
-                response = array_underscore[randWordLen];
-                response_acc = true;
-                i = randWordLen + 1;
+                // if(response == array_underscore[s])
+                // {
+                //     response = array_underscore[s];
+                //     response_acc = true;
+                //     i = randWordLen + 1; // exit for loop i
+                //     toggle_letter[s] = true;
+                // }
             }
-            if(response == array_underscore[i])
-            {
-                cout << "You've already tried that letter try something else! " << endl;
-                usleep(500000);
+            if(response == array_underscore[i]) //repeat letter warning for user
+            {   
+                cout << "\033[31m";
+                cout << endl << "You've already tried that letter try something else! " << endl;
+                cout << "\033[0m";
+                usleep(2000000); //display the warning for 2 seconds
+                repeat_letter = true;
                 i = randWordLen + 1;
             }
             if(response == char_array[i])
@@ -303,10 +300,11 @@ string letterslol = "";
 
                 response_acc = true;
 
-                if(char_array[i] == array_underscore[i] && toggle_letter[i] == false)
+                if(char_array[i] == array_underscore[i] && toggle_letter[i] == false) 
                 {
-                    word_counter++;
+                    word_counter++; 
                     toggle_letter[i] = true;
+                    response_acc = true;
                 }
             }
 
@@ -319,111 +317,145 @@ string letterslol = "";
         if (lives == 7)
         {
             lives7();
-            cout << "This is your current lives: " << lives - 1 << endl;
+            cout << "This is your current lives: "; cout << "\033[32m"; cout << lives - 1 << endl;
             if(response_acc == true)
             {
+                cout << "\033[32m" << endl;
                 cout << endl << "That was correct!" << endl;
+                cout << "\033[0m";
             }
             else
             {
+                cout << "\033[31m";
                 cout << endl << "Ouch! That was a wrong answer!" << endl;
+                cout << "\033[0m";
             }
             
         }
         else if(lives == 6)
         {
             lives6();
-            cout << "This is your current lives: " << lives - 1 << endl;
+            cout << "This is your current lives: "; cout << "\033[32m"; cout << lives - 1 << endl;
             if(response_acc == true)
             {
+                cout << "\033[32m" << endl;
                 cout << endl << "That was correct!" << endl;
+                cout << "\033[0m";
             }
             else
             {
+                cout << "\033[31m";
                 cout << endl << "Ouch! That was a wrong answer!" << endl;
+                cout << "\033[0m";
             }
-            cout << word_counter << endl;
+            //cout << word_counter << endl;
         }
         else if(lives == 5)
         {
             lives5();
-            cout << "This is your current lives: " << lives - 1 << endl;
+            cout << "This is your current lives: "; cout << "\033[32m"; cout << lives - 1 << endl;
             if(response_acc == true)
             {
+                cout << "\033[32m" << endl;
                 cout << endl << "That was correct!" << endl;
+                cout << "\033[0m";
             }
             else
             {
+                cout << "\033[31m";
                 cout << endl << "Ouch! That was a wrong answer!" << endl;
+                cout << "\033[0m";
             }
         }
+        //cout << "\033[35m"; pink 
+        //cout << "\033[36m"; light blue
         else if(lives == 4)
         {
             lives4();
-            cout << "This is your current lives: " << lives - 1 << endl;
+            cout << "This is your current lives: "; cout << "\033[33m"; cout << lives - 1 << endl;
             if(response_acc == true)
             {
+                cout << "\033[32m" << endl;
                 cout << endl << "That was correct!" << endl;
+                cout << "\033[0m";
             }
             else
             {
+                cout << "\033[31m";
                 cout << endl << "Ouch! That was a wrong answer!" << endl;
+                cout << "\033[0m";
             }
         }
         else if(lives == 3)
         {
             lives3();
-            cout << "This is your current lives: " << lives - 1 << endl;
+            cout << "This is your current lives: "; cout << "\033[31m"; cout << lives - 1 << endl;
             if(response_acc == true)
             {
+                cout << "\033[32m" << endl;
                 cout << endl << "That was correct!" << endl;
+                cout << "\033[0m";
             }
             else
             {
+                cout << "\033[31m";
                 cout << endl << "Ouch! That was a wrong answer!" << endl;
+                cout << "\033[0m";
             }
         }
         else if(lives == 2)
         {
             lives2();
-            cout << "This is your current lives: " << lives - 1 << endl;
+            cout << "This is your current lives: "; cout << "\033[31m"; cout << lives - 1 << endl;
             if(response_acc == true)
             {
+                cout << "\033[32m" << endl;
                 cout << endl << "That was correct!" << endl;
+                cout << "\033[0m";
             }
             else
             {
+                cout << "\033[31m";
                 cout << endl << "Ouch! That was a wrong answer!" << endl;
+                cout << "\033[0m";
             }
         }
         else
         {
             lives1();
-            cout << "This is your current lives: " << lives - 1 << endl;
+            cout << "This is your current lives: "; cout << "\033[35m"; cout << lives - 1 << endl;
+            cout << endl << "\033[31m";
             cout << "YOU HAVE DIED!" << endl;
-            cout << endl << endl << "The correct word was: " << randomWord << endl;
-            cout << word_counter << endl;
+            cout << "\033[0m";
+            cout << endl << "The correct word was: "; cout << "\033[35m"; cout << randomWord << endl;
+            //cout << word_counter << endl;
             return -1;
         }
-        for(int i = 0; i <= randomWord.size(); i++)
+        for(int p = 0; p < randWordLen; p++)
         {
-            cout << array_underscore[i];
-
-        
+            cout << array_underscore[p];
         }
         cout << endl;
-        cout << "Your attempted letters are:" << letterslol << endl;
-
+        if(repeat_letter == true)
+        {
+            response_plus =  response_plus + "";
+        }
+        else
+        {
+            response_plus =  response_plus + " " + response;
+        }
+        cout << "Your attempted letters are:"; cout << "\033[35m"; cout << response_plus; cout << "\033[0m" << endl;
         response_acc = false;
+        repeat_letter = false;
         counter++;
         
-        if(word_counter >= randWordLen)
+        if(word_counter == randWordLen)
             {
                 toggle_me = false;
             }
     }
 
-
-    cout << endl;
+    cout << "\033[32m";
+    cout << endl << "Great job, you got it!" << endl << endl;
     return 0;
 }
